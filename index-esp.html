@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+
+<!-- Mirrored from www.ascaso.com/index-esp.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Dec 2017 14:51:13 GMT -->
+<head>
+<meta charset="utf-8">
+<title>Ascaso Factory | Máquinas de café espresso fabricadas en Barcelona</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="German Arnal Gallart, 302studio">
+<link rev="made" href="mailto:bcn@302studio.com?">
+<meta name="reply-to" content="german@ascaso.com">
+<meta rev="made" href="mailto:german@ascaso.com">
+<meta name="description" content="Ascaso Factory: Fábrica de máquinas y molinos de café. Recambios y maquinaria para hostelería.">
+<meta name="keywords" content="maquinas de cafe espresso, máquinas de café espresso, recambios, molinos, dream, steel, bar, barista, ascaso, repuestos, accesorios, maquinaria, equipamiento, despiece, hosteleria, horeca, maquina, cafe, espresso, molino, gas, cocina, coccion, frio, industrial, comercial, lavavajillas, vending, hostelco, host">
+<meta name="Resource-type" content="Document">
+<meta name="Revisit-after" content="6 days">
+<meta name="robots" content="ALL">
+
+<meta http-equiv="last-modified" content="0">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="cache-control" content="no-cache, mustrevalidate">
+<meta http-equiv="pragma" content="no-cache">
+
+<link href="css/ascaso2015.css" rel="stylesheet" type="text/css">
+<link href="css/ascaso2015-index.css" rel="stylesheet" type="text/css">
+<link href="css/video-background.css" rel="stylesheet" type="text/css">
+<link href="css/acceso-catalogo.css" rel="stylesheet" type="text/css">
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Oxygen:300,400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+<video autoplay poster="img/polina.jpg" id="bgvid" loop>
+  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+<!--<source src="img/intro%20web%20blur.webm" type="video/webm" />-->
+<source src="img/video2.mp4" type="video/mp4" />
+</video>
+
+<!--<div id="polina">
+<button>Pause</button>
+</div>
+-->
+<div style="display:none"><h1>Ascaso Factory. Máquinas de café espresso fabricadas en Barcelona.</h1></div>
+
+<div id="mensaje" style="padding:20px;text-align:center;font-family:sans-serif;background-color:#979797; color:#ECECEC; width: 100%; font-size:12pt; position: fixed; bottom: 0px;">
+<strong>Cookies</strong>? Por supuesto. Si sigues navegando, entendemos que estas de acuerdo y todos tan contentos. <a href="politica%20de%20cookies.html">Saber mas</a></div>
+
+<div class="contenido-index">
+    <div class="header-index"><div class="btn-catalogo"><a href="http://www.repuestos-hosteleria.com/" target="_blank">Catálogo Online</a></div></div>
+    <div class="bloque-central">
+        <div class="logo-index"><img src="img/logo-ascaso-blanc-2.png" width="268" height="auto" alt=""/></div>
+        <a href="div-maquinas-molinos-cafe-espresso/home.html"><div class="button-xl-blanc">Máquinas Café</div></a>
+      <a href="div-recambios-componentes-maquinaria-hosteleria/home.html"><div class="button-xl-blanc">Componentes</div></a>
+        <a href="div-horeca-maquinaria-hosteleria/home.html"><div class="button-xl-blanc">Horeca</div></a>
+        <div class="peudehome borde-arriba margen-superior-50px"><!--<div class="inlineblock" ><a href="index-eng.html">change to english</a></div>--> <div class="inlineblock" ><a href="mailto:ascaso@ascaso.com">antonio@ascasoperu.com</a></div> <div class="inlineblock" ><a href="tel:997337866">997 337 866</a></div></div>
+    </div>
+    
+    <!--<div class="footer-index">
+	   <span class="fons-blanc"> Tel. 93 377 64 11 | Fax. 93 
+ 		  377 98 03&nbsp;|&nbsp;<a href="mailto:ascaso@ascaso.com">ascaso@ascaso.com</a>&nbsp;|		Energía, 39-41, Pol. Ind. Famadas 08940 Cornellá Barcelona - ES</span>
+	</div>-->
+</div>
+
+<script>
+var vid = document.getElementById("bgvid");
+var pauseButton = document.querySelector("#polina button");
+
+function vidFade() {
+  vid.classList.add("stopfade");
+}
+
+vid.addEventListener('ended', function()
+{
+// only functional if "loop" is removed 
+vid.pause();
+// to capture IE10
+vidFade();
+}); 
+
+
+pauseButton.addEventListener("click", function() {
+  vid.classList.toggle("stopfade");
+  if (vid.paused) {
+    vid.play();
+    pauseButton.innerHTML = "Pause";
+  } else {
+    vid.pause();
+    pauseButton.innerHTML = "Paused";
+  }
+})
+
+
+</script>
+
+<script type="text/javascript" src="http://www.ascaso.com/js/acceso-catalogo.js?idioma=es" id="loginjs"></script>
+
+<script>
+var mensaje = document.cookie.split('mensaje=')[1];
+if(mensaje != null) document.getElementById('mensaje').style.display = 'none';
+else {
+    var d = new Date();
+    d.setTime(d.getTime() + (365*24*60*60*1000));
+    var caduca = "expires="+ d.toUTCString();
+    document.cookie = 'mensaje=visto; ' + caduca;
+}
+</script>
+
+</body>
+
+<!-- Mirrored from www.ascaso.com/index-esp.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Dec 2017 14:51:16 GMT -->
+</html>

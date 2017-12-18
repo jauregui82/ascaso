@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contenedor-login, #contenedor-password {
+	display: none;
+	width: 400px;
+	border-radius: 13px;
+	background-color: white;
+    padding: 30px 15px 25px;
+	text-align: center;
+}
+
+.etiqueta-campo, .etiqueta-campo-captcha {
+    font-size: 14px;
+	margin-left: 10px;
+	text-align: left;
+}
+
+.etiqueta-campo {
+	display: none;
+}
+
+.etiqueta-campo-captcha {
+	margin-bottom: 3px;
+}
+
+.etiqueta-captcha {
+    font-size: 14px;
+	margin-bottom: 5px;
+    vertical-align: top;
+}
+
+#contenedor-login input, #contenedor-password input{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+#formulario-login {
+	display: inline-block;
+	width: 300px;
+}
+#formulario-password {
+	display: inline-block;
+	width: 300px;
+}
+
+#inpLoginCodigoCliente, #inpPasswordEmail {
+	margin-bottom: 10px;
+	width: 260px;
+}
+#inpLoginPassword, #inpPasswordTxtCapcha {
+	width: 163px;
+}
+
+#inpLoginPassword, #inpPasswordTxtCapcha {
+	margin-top: 0px;
+}
+
+#contenedor-boton {
+	display: inline-block;
+}
+
+#btnLogin, #btnPassword {
+	width: 90px;
+	height: 43px;
+	margin: 0px 0px 0px 5px;
+	cursor: pointer;
+}
+
+#contenedor-boton-password {
+	display: block;
+	width: 50px;
+	height: 20px;
+}
+
+.contenedor-olvido {
+    font-size: 14px;
+	margin-left: 5px;
+	margin-top: 10px;
+	text-align: center
+}
+
+#contenedor-error, #contenedor-error-password {
+	background-color: #E00000;
+	color: white;
+	display: none;
+	text-align: center;
+	padding: 10px;
+	margin-top: 15px;	
+    border-radius: 13px;
+}
+
+#contenedor-error-password {
+	background-color: #E00000;
+	color: white;
+	display: none;
+	text-align: center;
+	padding: 10px;
+	margin-top: 15px;
+    border-radius: 13px;	
+}
+
+#contenedor-mensaje-password {
+	color: white;
+	display: none;
+}
+
+#contenedor-enlaces {
+	display: none;
+}
+
+#formulario-login input.campo-login-error, #formulario-password input.campo-password-error {
+	border-color: red;
+}
+
+button {border: none; text-decoration:none; font-size:16pt; background-color:#888888; color:#fff; border-radius:3px; margin: 10px auto;}

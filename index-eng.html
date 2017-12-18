@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from www.ascaso.com/index-eng.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Dec 2017 14:51:09 GMT -->
+<head>
+<meta charset="UTF-8">
+<title>Ascaso Factory | Espresso coffee machines manufactured in Barcelona</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="German Arnal Gallart, germanarnal@gmail.com">
+<meta name="reply-to" content="man@302studio.com">
+<link rev="made" href="mailto:man@302studio.com">
+<meta name="description" content="Ascaso Factory: Manufacturer of coffee machines and grinders in Barcelona.">
+<meta name="keywords" content="ascaso, espresso coffee machines, grinders, espresso, coffee, vending, hostelco, host">
+<meta name="Resource-type" content="Document">
+<meta name="Revisit-after" content="6 days">
+<meta name="robots" content="ALL">
+
+<meta http-equiv="last-modified" content="0">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="cache-control" content="no-cache, mustrevalidate">
+<meta http-equiv="pragma" content="no-cache">
+
+<link href="css/ascaso2015.css" rel="stylesheet" type="text/css">
+<link href="css/ascaso2015-index.css" rel="stylesheet" type="text/css">
+<link href="css/video-background.css" rel="stylesheet" type="text/css">
+<link href="css/acceso-catalogo.css" rel="stylesheet" type="text/css">
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Oxygen:300,400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+<video autoplay poster="img/polina.jpg" id="bgvid" loop>
+  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+<!--<source src="img/intro%20web%20blur.webm" type="video/webm" />-->
+<source src="img/video2.mp4" type="video/mp4" />
+</video>
+
+<!--<div id="polina">
+<button>Pause</button>
+</div>
+-->
+
+<div style="display:none"><h1>Ascaso Factory. Espresso coffee machines manufactured in Barcelona.</h1></div>
+
+<div class="contenido-index">
+    <div class="header-index"><div class="btn-catalogo"><a href="http://www.repuestos-hosteleria.com/" target="_blank">Online Catalogue</a></div></div>
+    <div class="bloque-central">
+        <div class="logo-index"><img src="img/logo-ascaso-blanc-2.png" width="268" height="auto" alt=""/></div>
+        <a href="div-espresso-coffee-machines-grinders/home.html"><div class="button-xl-blanc">Coffee Machines</div></a>
+      <a href="div-spare-parts-machinery-hospitality/home.html"><div class="button-xl-blanc">Spare Parts</div></a>
+      <div class="peudehome borde-arriba margen-superior-50px"><div class=" inlineblock" ><a href="index-esp.html">cambiar a español</a></div> <div class=" inlineblock" ><a href="mailto:ascaso@ascaso.com">ascaso@ascaso.com</a></div> <div class=" inlineblock" ><a href="tel:+34933776411">+34 93 377 64 11</a></div></div>
+    </div>
+    <!--<div class="footer-index">
+	   <span class="fons-blanc"> Tel. 93 377 64 11 | Fax. 93 
+ 		  377 98 03&nbsp;|&nbsp;<a href="mailto:ascaso@ascaso.com">ascaso@ascaso.com</a>&nbsp;|		Energía, 39-41, Pol. Ind. Famadas 08940 Cornellá Barcelona - ES</span>
+	</div>-->
+</div>
+
+<script>
+var vid = document.getElementById("bgvid");
+var pauseButton = document.querySelector("#polina button");
+
+function vidFade() {
+  vid.classList.add("stopfade");
+}
+
+vid.addEventListener('ended', function()
+{
+// only functional if "loop" is removed 
+vid.pause();
+// to capture IE10
+vidFade();
+}); 
+
+
+pauseButton.addEventListener("click", function() {
+  vid.classList.toggle("stopfade");
+  if (vid.paused) {
+    vid.play();
+    pauseButton.innerHTML = "Pause";
+  } else {
+    vid.pause();
+    pauseButton.innerHTML = "Paused";
+  }
+})
+
+
+</script>
+
+<script type="text/javascript" src="http://www.ascaso.com/js/acceso-catalogo.js?idioma=en" id="loginjs"></script>
+</body>
+
+<!-- Mirrored from www.ascaso.com/index-eng.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Dec 2017 14:51:13 GMT -->
+</html>

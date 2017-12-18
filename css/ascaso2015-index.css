@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { height:100%; background-color:#DBDBDB !important; background: url(../img/polina.jpg); background-repeat: no-repeat; background-size: cover;} 
+.contenido-index{width:1000px; margin:00 auto;}
+.contenido-politicas{width:1000px; margin:00 auto;}
+.bloque-central{width:95%; margin:00 auto; text-align:center; padding: 200px 00 200px 00;}
+.peudehome a{ font-weight:400; color: #ffffff; padding:00 4px;}
+.peudehome a:active{ font-weight:400; color: #ffffff; padding:00 4px;}
+.peudehome a:visited{ font-weight:400; color: #ffffff; padding:00 4px;}
+.peudehome a:hover{ text-decoration:none; background: #ffffff; color:#E00003}
+.header-index{ width:90%; margin:00 auto; text-align:right; font-size: 14pt;}
+.btn-catalogo{background: #fff; color:#9C9C9C; padding:4px 10px; display:inline-block; border-radius:0 0 5px 5px; font-weight:400;}
+.btn-catalogo a, a:active, a:visited{background: #fff; color:#9C9C9C; }
+.btn-catalogo a:hover{ text-decoration:none; background: #fff; color:#E00003}
+.logo-index{padding-bottom: 20px;}
+.button-xl-blanc {width:250px !important; border: 1px solid #fff; padding: 10px; -webkit-border-radius: 12px; -moz-border-radius: 12px; border-radius: 12px; color: #fff; font-size: 28px; font-family: 'Open Sans', sans-serif; font-weight:300; text-decoration: none; vertical-align: middle; display:inline-block; margin-bottom:6px;}
+.button-xl-blanc:hover {background: #fff; color:#9C9C9C}
+.footer-index { width: 95%; color: #444444; font-family: 'Open Sans', sans-serif; font-weight:300; clear:both; text-align:center; font-size: 11pt; margin:00 auto; }
+.fons-blanc{background-color:#fff; padding: 2px 8px;}
+x a{text-decoration:none; color:#fff;}
+.footer-index a{text-decoration:none; padding: 00 8px;}
+.footer-index a:hover{text-decoration:none; color:#fff; background-color:#e00000; }
+.inlineblock{ display:inline-block; }
+
+/* for 1000px or less */
+@media screen and (max-width: 1000px) {	
+.contenido-index{width:100%; }
+.contenido-politicas{width:100%; }
+.bloque-central{padding: 130px 00 150px 00;}
+	}
+	
+/* for 700px or less */
+@media screen and (max-width: 700px) {	
+.bloque-central{padding: 70px 00 40px 00;}
+.footer-index{padding-bottom: 100px;}
+.button-xl-blanc {display:block; margin:00 auto;}
+	}
+
+/* for 600px or less */
+@media screen and (max-width: 600px) {	
+.inlineblock{ display:block; }
+	}
