@@ -2,9 +2,10 @@
 /* CSS Document */
 
 body { height:100%; background-color:#DBDBDB !important; background: url(../img/polina.jpg); background-repeat: no-repeat; background-size: cover;} 
-.contenido-index{width:1000px; margin:00 auto;}
+	/*jauregui*/
+.contenido-index{/*width:1000px;*/ margin:00 auto;}
 .contenido-politicas{width:1000px; margin:00 auto;}
-.bloque-central{width:95%; margin:00 auto; text-align:center; padding: 200px 00 200px 00;}
+.bloque-central{width:95%; margin:15px auto; /*text-align:center; padding: 200px 00 200px 00;*/}
 .peudehome a{ font-weight:400; color: #ffffff; padding:00 4px;}
 .peudehome a:active{ font-weight:400; color: #ffffff; padding:00 4px;}
 .peudehome a:visited{ font-weight:400; color: #ffffff; padding:00 4px;}
@@ -14,8 +15,10 @@ body { height:100%; background-color:#DBDBDB !important; background: url(../img/
 .btn-catalogo a, a:active, a:visited{background: #fff; color:#9C9C9C; }
 .btn-catalogo a:hover{ text-decoration:none; background: #fff; color:#E00003}
 .logo-index{padding-bottom: 20px;}
-.button-xl-blanc {width:250px !important; border: 1px solid #fff; padding: 10px; -webkit-border-radius: 12px; -moz-border-radius: 12px; border-radius: 12px; color: #fff; font-size: 28px; font-family: 'Open Sans', sans-serif; font-weight:300; text-decoration: none; vertical-align: middle; display:inline-block; margin-bottom:6px;}
-.button-xl-blanc:hover {background: #fff; color:#9C9C9C}
+/*jauregui*/
+.button-xl-blanc {width:250px !important; /*border: 1px solid #fff; padding: 10px;*/ -webkit-border-radius: 12px; -moz-border-radius: 12px; border-radius: 12px; color: #fff; font-size: 25px; font-family: 'Open Sans', sans-serif; font-weight:300; text-decoration: none; vertical-align: middle; /*display:inline-block;*/ margin-bottom:6px;}
+.button-xl-blanc:hover {background: #e30003; color:#fff}
+/*.button-xl-blanc:hover {background: #fff; color:#9C9C9C}*/
 .footer-index { width: 95%; color: #444444; font-family: 'Open Sans', sans-serif; font-weight:300; clear:both; text-align:center; font-size: 11pt; margin:00 auto; }
 .fons-blanc{background-color:#fff; padding: 2px 8px;}
 x a{text-decoration:none; color:#fff;}
